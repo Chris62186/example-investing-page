@@ -1,0 +1,146 @@
+:root {
+  --main-bg-color: #394867;
+  --secondary-main-color: #14274E;
+  --minor-bg-color: #9BA4B4;
+  --minor-bg-color-2: #F1F6F9;
+  --main-font: 'Open Sans', sans-serif;
+  --main-text-color-light: #F1F6F9;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  margin: 0;
+  width: 75%;
+  margin: auto;
+  font-family: var(--main-font);
+}
+
+th {
+  text-align: left;
+}
+
+tr {
+  margin: 2rem auto;
+}
+
+td {
+  margin: .5rem;
+}
+
+
+
+.main-header {
+  color: var(--main-text-color-light);
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#top {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.call-to-action-box-main {
+  width: 30%;
+  padding: 1em;
+  background-color: var(--secondary-main-color);
+  color: var(--main-text-color-light);
+  flex-grow: 1;
+}
+
+.content-text {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.header-level-2 {
+  font-size: 2.1em;
+  text-align: center;
+}
+
+.user-icons-holder {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  flex-grow: 1;
+}
+
+.icon-box {
+  height: 50%;
+  width: 50%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box:hover {
+  background-color: var(--minor-bg-color-2);
+}
+
+.icon {
+  font-size: 5em;
+  margin: auto auto 0;
+}
+
+.icon:hover {
+  font-size: 6em;
+}
+
+.user-type {
+  margin: .5rem auto auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#resources {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  background-color: var(--secondary-main-color);
+  padding: .1rem 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown:hover {
+  border: 1px solid;
+  border-color: #fff;
+  font-weight: bold;
+}
+
+.header-dropdown {
+  font-size: 1.25rem;
+  color: var(--main-text-color-light);
+  width: 95%;
+  margin: .75rem auto;
+}
+
+.dropdown-nav {
+  font-size: 1rem;
+  margin: auto;
+  text-align: right;
+}
+
+.resource-content-holder {
+  background-color: var(--minor-bg-color);
+  margin: 0;
+  padding: 1rem;
+  display: none;
+}
+
+.text-resource-content {
+  margin: 0;
+}
+
+.header-resource-content {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
